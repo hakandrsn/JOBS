@@ -4,6 +4,7 @@ const app = express()
 const routes = require("./routes")
 const cors = require("cors")
 require("dotenv").config()
+require("./services/mongo")
 
 app.use(cors())
 app.use(express.json())
@@ -20,7 +21,7 @@ app.get("/",(req,res)=>{
     console.log("nabersibn")
     res.send("oldu")
 })
-require("./middlewares/ErrorMw")
+app.use(require("./middlewares/ErrorMw"))
 app.listen(process.env.PORT || 3000 , ()=>{
     console.log(process.env.PORT)
 })
