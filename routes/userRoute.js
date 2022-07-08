@@ -1,9 +1,7 @@
 const express = require("express");
 const router = express.Router()
-router.get("/",(req,res,next)=>{
-    console.log("user")
-    res.json("json oldu")
-    next()
-})
+const userCtr = require("../controllers/userCtr")
+
+router.get("/",userCtr.fetchUsers)
 
 module.exports=router

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc5d272a-92e9-466f-b94f-384614bdbafb" name="Changes" comment="jobs-v-2">
-      <change afterPath="$PROJECT_DIR$/routes/taskRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/workRoute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/mongo.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/mongo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/userCtr.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/userCtr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/userRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/userRoute.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

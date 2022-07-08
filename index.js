@@ -12,6 +12,10 @@ app.use(express.static("public"))
 app.use(helmet())
 
 app.use("/user",routes.user)
+app.use("/task",routes.task)
+app.use("/work",routes.work)
+
+
 app.get("/",(req,res)=>{
     console.log("nabersibn")
     res.send("oldu")

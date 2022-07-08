@@ -1,5 +1,7 @@
 const user = require("./userRoute.js");
+const task = require("./taskRoute")
+const work = require("./workRoute")
 
 module.exports={
-    user
+    user,task,work
 }
